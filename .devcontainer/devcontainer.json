@@ -1,6 +1,6 @@
 {
     "name": "Terraform-Azure",
-    "image": "adeelku/terraform-azure",
+    "image": "adeelku/terraform-azure:1.0",
     "customizations": {
         "vscode": {
             "extensions": [
