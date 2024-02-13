@@ -1,0 +1,15 @@
+{
+    "name": "Terraform-Azure",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "hashicorp.terraform",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
