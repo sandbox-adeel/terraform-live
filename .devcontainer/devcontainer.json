@@ -1,9 +1,6 @@
 {
     "name": "Terraform-Azure",
-    "build": {
-        "dockerfile": "Dockerfile",
-        "context": ".."
-    },
+    "image": "adeelku/terraform-azure",
     "customizations": {
         "vscode": {
             "extensions": [
