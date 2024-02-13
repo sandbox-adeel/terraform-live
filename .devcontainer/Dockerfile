@@ -7,7 +7,8 @@ ENV AZURE_CLI_VERSION 2.53.1
 RUN apt-get update && apt-get install -y \
     curl \
     python3-pip \
-    zip
+    zip \
+    git
 
 RUN echo 'alias python=python3' >> ~/.bashrc
 RUN echo 'alias pip=pip3' >> ~/.bashrc
